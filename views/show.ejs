@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail of Listing</title>
+</head>
+<body>
+    <H3> Listing Detail - Single </H3>
+    <ul>
+        <li> <%= showSingleListing.id %></li>
+        <li> <%= showSingleListing.propertyName %></li>
+        <li> <%= showSingleListing.price %></li>
+        <li> <%= showSingleListing.city %></li>
+        <li> <%= showSingleListing.country %></li>
+    </ul>
+    <a href="/listing/<%=showSingleListing._id%>/edit"> Edit </a>
+    <br>
+    <br>
+    <form method="POST" action = "/listing/<%=showSingleListing._id%>?_method=DELETE">
+        <button> Delete Listing </button>
+    </form>
+</body>
+</html>
