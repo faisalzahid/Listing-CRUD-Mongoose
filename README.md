@@ -4,8 +4,6 @@ A complete **CRUD web application** for managing property listings using **Node.
 
 This project is part of MERN Stack learning practice.
 
----
-
 ## Features
 
 * Create new listings
@@ -17,8 +15,6 @@ This project is part of MERN Stack learning practice.
 * Clean EJS UI
 * Uses method-override for PUT & DELETE
 
----
-
 ## Tech Stack
 
 * **Backend:** Node.js, Express
@@ -26,11 +22,9 @@ This project is part of MERN Stack learning practice.
 * **Templating Engine:** EJS
 * **Other Tools:** method-override, path
 
----
 
 ## Project Structure
 
-```
 .
 ├── app.js              # Main Express application
 ├── Models
@@ -43,9 +37,7 @@ This project is part of MERN Stack learning practice.
 │   ├── show.ejs        # Show single listing
 │   └── edit.ejs        # Edit listing
 └── package.json
-```
 
----
 
 ## Routes Overview
 
@@ -60,50 +52,36 @@ This project is part of MERN Stack learning practice.
 | PUT    | `/listing/:id`      | Update listing         |
 | DELETE | `/listing/:id`      | Delete listing         |
 
----
 
 ## Installation & Setup
 
 ### 1. Clone the repository
 
-```
 git clone https://github.com/faisalzahid/Listing-CRUD-Mongoose.git
 cd Listing-CRUD-Mongoose
-```
 
 ### 2. Install dependencies
 
-```
 npm install
-```
 
 ### 3. Start MongoDB
 
 Make sure MongoDB server is running locally:
 
-```
 mongodb://127.0.0.1:27017/listing
-```
 
 ### 4. Seed the database (optional)
 
-```
 node init/init.js
-```
 
 ### 5. Run the application
 
-```
 node app.js
-```
 
 Server will run on:
 
-```
 http://localhost:8080
-```
 
----
 
 ## How It Works
 
@@ -130,12 +108,9 @@ http://localhost:8080
 
 Allows PUT & DELETE via:
 
-```
 ?_method=PUT
 ?_method=DELETE
-```
 
----
 
 ## Future Enhancements
 
@@ -145,7 +120,6 @@ Allows PUT & DELETE via:
 * Deploy on Render/Railway
 * Add image upload functionality
 
----
 
 ## License
 
