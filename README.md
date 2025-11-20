@@ -1,6 +1,6 @@
 # Listing CRUD App (Node.js + Express + MongoDB + EJS)
 
-A complete **CRUD web application** for managing property listings using **Node.js**, **Express**, **MongoDB (Mongoose)**, and **EJS**.
+A **CRUD web application** for managing property listings using **Node.js**, **Express**, **MongoDB (Mongoose)**, and **EJS**.
 
 This project is part of MERN Stack learning practice.
 
