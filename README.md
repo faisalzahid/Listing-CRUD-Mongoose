@@ -25,7 +25,7 @@ This project is part of MERN Stack learning practice.
 
 ## Project Structure
 
-.
+
 ├── app.js              # Main Express application
 ├── Models
 │   └── Listing.js      # Mongoose schema/model
